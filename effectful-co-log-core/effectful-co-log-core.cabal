@@ -25,10 +25,13 @@ common common
   ghc-options:
     -Wall
     -Wcompat
+    -fprint-potential-instances
   default-extensions:
     , DataKinds
     , FlexibleContexts
+    , GADTs
     , KindSignatures
+    , LambdaCase
     , RankNTypes
     , ScopedTypeVariables
     , TypeApplications
